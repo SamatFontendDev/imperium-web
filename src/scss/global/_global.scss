@@ -40,6 +40,8 @@
 
 html {
 	font-size: 16px;
+	color: #333333;
+	font-family: "Raleway-Regular";
 }
 
 html,
@@ -50,6 +52,8 @@ body {
 
 body {
 	font-size: 1rem;
+	overflow-x: hidden;
+	max-width: 100vw;
 }
 
 ul,
@@ -63,4 +67,27 @@ h4,
 h5,
 h6 {
 	margin: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.container{
+	max-width: 1250px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.relative{
+	position: relative;
+}
+img{
+	max-width: 100%;
 }

@@ -58,3 +58,18 @@
 	padding: 0 #{$padding};
 	margin: 0 auto;
 }
+@mixin laptop {
+    @media screen and (max-width: 1300px) {
+        @content;
+    }
+}
+@mixin tablets {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+@mixin phones {
+   @media screen and (max-width: 520px) {
+        @content;
+   }
+}

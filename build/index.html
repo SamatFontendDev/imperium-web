@@ -20,6 +20,10 @@
 				type="image/x-icon">
 	<link rel="stylesheet"
 				href="css/libs.min.css">
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
 	<link rel="stylesheet"
 				href="css/style.min.css">
 	<title>Easy-webdev-startpack v3.0</title>
@@ -27,12 +31,328 @@
 
 
 <body>
-	<header class="header"></header>
+	<section class="first-section">
+		<header class="header">
+    <div class="container">
+        <div class="header__row">
+            <div class="header__col flex --align-center">
+                <div class="hamburger">
+                    <div class="hamburge__line"></div>
+                    <div class="hamburge__line"></div>
+                    <div class="hamburge__line"></div>
+                </div>
+                <div class="flex --align-center">
+                    <a href="/" class="logo">
+                        <svg class="logo-svg">
+                            <use xlink:href="/img/sprite.svg#sprite--logo"></use>
+                        </svg>
+                    </a>
+                    <div class="lang">
+                        <span class="lang-ru">Ru</span>
+                        <span>/</span>
+                        <span class="lang-en">En</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__col">
+                <nav class="nav">
+                    <div class="close">Закрыть</div>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Клюшки</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Одежда</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Аксессуары</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Кастомизация</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Отследить заказ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__col">
+                <div class="flex --align-center">
+                    <a href="#" class="icon-link">
+                        <svg class="header-svg">
+                            <use xlink:href="/img/sprite.svg#sprite--search"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon-link">
+                        <svg class="header-svg header-svg--phone">
+                            <use xlink:href="/img/sprite.svg#sprite--phone"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon-link">
+                        <svg class="header-svg">
+                            <use xlink:href="/img/sprite.svg#sprite--diagrama"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon-link">
+                        <svg class="header-svg">
+                            <use xlink:href="/img/sprite.svg#sprite--user"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon-link icon-link--circle">
+                        <svg class="header-svg header-svg--shoping-cart">
+                            <use xlink:href="/img/sprite.svg#sprite--shopoing-cart"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-	<main class="main"></main>
-	<footer class="footer"></footer>
+		<div class="container relative">
+    <div class="zaryad --svg__zaryad"></div>
+</div>
+<div class="relative">
+    <div class="slider swiper-container">
+        <ul class="slider__list swiper-wrapper">
+            <li class="slider__item swiper-slide slide">
+                <div class="relative dib">
+                    <img src="/img/slide.jpg" alt="">
+                    <a href="#" class="circle-btn circle-btn--slide">В каталог</a>
+                    <div class="slide__content">
+                        <div class="slide__title">Константин Константинович</div>
+                        <div class="slide__desc">Крутой хоккеист такой-то команды</div>
+                        <div class="relative">
+                            <a href="#" class="slide__circle-border">
+                                <svg class="slide-svg">
+                                    <use xlink:href="/img/sprite.svg#sprite--play"></use>
+                                </svg>
+                                <img class="circle-img" src="/img/circle.png" alt="">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="slider__item swiper-slide slide">
+                <div class="relative dib">
+                    <img src="/img/slide.jpg" alt="">
+                    <a href="#" class="circle-btn circle-btn--slide">В каталог</a>
+                    <div class="slide__content">
+                        <div class="slide__title">Константин Константинович</div>
+                        <div class="slide__desc">Крутой хоккеист такой-то команды</div>
+                        <div class="relative">
+                            <a href="#" class="slide__circle-border">
+                                <svg class="slide-svg">
+                                    <use xlink:href="/img/sprite.svg#sprite--play"></use>
+                                </svg>
+                                <img class="circle-img" src="/img/circle.png" alt="">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="slider__item swiper-slide slide">
+                <div class="relative dib">
+                    <img src="/img/slide.jpg" alt="">
+                    <a href="#" class="circle-btn circle-btn--slide">В каталог</a>
+                    <div class="slide__content">
+                        <div class="slide__title">Константин Константинович</div>
+                        <div class="slide__desc">Крутой хоккеист такой-то команды</div>
+                        <div class="relative">
+                            <a href="#" class="slide__circle-border">
+                                <svg class="slide-svg">
+                                    <use xlink:href="/img/sprite.svg#sprite--play"></use>
+                                </svg>
+                                <img class="circle-img" src="/img/circle.png" alt="">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="slider__item swiper-slide slide">
+                <div class="relative dib">
+                    <img src="/img/slide.jpg" alt="">
+                    <a href="#" class="circle-btn circle-btn--slide">В каталог</a>
+                    <div class="slide__content">
+                        <div class="slide__title">Константин Константинович</div>
+                        <div class="slide__desc">Крутой хоккеист такой-то команды</div>
+                        <div class="relative">
+                            <a href="#" class="slide__circle-border">
+                                <svg class="slide-svg">
+                                    <use xlink:href="/img/sprite.svg#sprite--play"></use>
+                                </svg>
+                                <img class="circle-img" src="/img/circle.png" alt="">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="slide-button-prev">
+        <svg class="slide-btn">
+            <use xlink:href="/img/sprite.svg#sprite--slide-prev"></use>
+        </svg>
+    </div>
+    <div class="slide-button-next">
+        <svg class="slide-btn">
+            <use xlink:href="/img/sprite.svg#sprite--slide-next"></use>
+        </svg>
+    </div>
+</div>
+
+	</section>
+	<section class="discont-section">
+        <div class="discont-section__row">
+            <div class="discont-section__left">
+                <div class="discont-section__title">
+                    <div class="title__row flex">
+                        <span class="title-word">Получи</span>
+                        <span class="title-icon title-icon--lightning">
+                            <svg class="title-svg">
+                                <use xlink:href="/img/sprite.svg#sprite--lightning"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="title__row flex --align-center">
+                        <span class="title-icon title-icon--discont">
+                            <svg class="title-svg">
+                                <use xlink:href="/img/sprite.svg#sprite--sale"></use>
+                            </svg>
+                        </span>
+                        <span class="title-word">скидку</span>
+                        <span class="title-word title-word--white">500 ₽</span>
+                    </div>
+                    <div class="title__row">
+                        <span class="title-word">за подписку</span>
+                    </div>
+                </div>
+                <div class="discont-section__desc">Никакого спама и рекламы, только полезная информация, скидки и персональные предложения</div>
+                <input placeholder="Ваш Email" type="email" class="input">
+                <a href="#" class="circle-btn">Подписаться</a>
+            </div>
+            <div class="discont-section__right">
+                <div class="discont-section__circle">
+                    <div class="discont-section__pic">
+                        <img src="/img/discont-img.jpg" alt="" class="discont-section__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+	<footer class="footer">
+    <div class="container">
+        <div class="flex mb-55">
+            <svg class="footer-logo-svg">
+                <use xlink:href="/img/sprite.svg#sprite--footer-logo"></use>
+            </svg>
+            <div class="social">
+                <svg class="social-svg">
+                    <use xlink:href="/img/sprite.svg#sprite--tg"></use>
+                </svg>
+            </div>
+            <div class="social">
+                <svg class="social-svg">
+                    <use xlink:href="/img/sprite.svg#sprite--vk"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="footer__grid">
+            <div class="footer__col mr-169">
+                
+                <div class="footer__row">
+                    <div class="footer-text footer-text--grey">Наименование</div>
+                    <div class="footer-text">ООО «ЗаряД»</div>
+                </div>
+                <div class="footer__row">
+                    <div class="footer-text footer-text--grey">Юридический адрес</div>
+                    <div class="footer-text">Республика Татарстан, г. Набережные Челны,
+                        ул. Альметьевский тракт, д. 6а</div>
+                </div>
+                <div class="flex --just-space">
+                    <div class="footer-block">
+                        <div class="footer__row">
+                            <div class="footer-text footer-text--grey">Телефон</div>
+                            <div class="footer-text">+7 (800) 511-93-90</div>
+                        </div>
+                    </div>
+                    <div class="footer-block">
+                        <div class="footer__row">
+                            <div class="footer-text footer-text--grey">Email</div>
+                            <div class="footer-text">info@zaryad-hockey.ru</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex --just-space">
+                    <div class="footer-block">
+                        <div class="footer__row">
+                            <div class="footer-text footer-text--grey">ИНН</div>
+                            <div class="footer-text">1646040440</div>
+                        </div>
+                    </div>
+                    <div class="footer-block">
+                        <div class="footer__row">
+                            <div class="footer-text footer-text--grey">ОГРН</div>
+                            <div class="footer-text">1151674001632</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">© 2017-2022 Заряд</div>
+                <div class="confedital">Политика конфиденциальности</div>
+            </div>
+            <div class="footer__col">
+                <div class="flex mb-56">
+                    <div class="footer-link-block">
+                        <div class="footer-link-block__title">О бренде</div>
+                        <a href="#" class="footer-link">История бренда</a>
+                        <a href="#" class="footer-link">Технологии производства</a>
+                        <a href="#" class="footer-link">Производство</a>
+                        <a href="#" class="footer-link">Контакты магазинов</a>
+                    </div>
+                    <div class="footer-link-block">
+                        <div class="footer-link-block__title">Партнерам</div>
+                        <a href="#" class="footer-link">Как стать партнером</a>
+                        <a href="#" class="footer-link">Как мы работаем</a>
+                        <a href="#" class="footer-link">Информация о выборе контрагентов</a>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="footer-link-block">
+                        <div class="footer-link-block__title">Покупателям</div>
+                        <a href="#" class="footer-link">Доставка и оплата</a>
+                        <a href="#" class="footer-link">Обмен и возврат</a>
+                        <a href="#" class="footer-link">Гарантия</a>
+                    </div>
+                    <div class="footer-link-block">
+                        <div class="footer-link-block__title footer-link-block__title--transparent">ssssssssss</div>
+                        <a href="#" class="footer-link">Бонусная программа</a>
+                        <a href="#" class="footer-link">Таблица размеров</a>
+                        <a href="#" class="footer-link">Подарочный сертификат</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="flex --dir-col --just-space h-100">
+                    <a href="#" class="circle-btn circle-btn--footer">Связаться
+                        <br>с нами</a>
+                    <a href="#" class="imperium-logo">
+                        <svg class="imperium-logo-svg">
+                            <use xlink:href="/img/sprite.svg#sprite--imperium"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 	<script src="js/libs.min.js"></script>
+<script src="js/circletype.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="js/main.min.js"></script>
 
 </body>

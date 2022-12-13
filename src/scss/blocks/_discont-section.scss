@@ -1,0 +1,126 @@
+.discont-section{
+    background-color: #131111;
+    padding-top: 117px;
+    padding-bottom: 130px;
+    padding-left: 20%;
+    @include tablets{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.discont-section__row{
+    display: flex;
+}
+.discont-section__title{
+    font-family: "Raleway-Black";
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 104px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #BCBCBC;
+  margin-bottom: 40px;
+}
+.title-word{
+    color: transparent;
+}
+.title-word--white{
+    font-family: "Raleway-Regular";
+    color: #F5F5F5;
+    -webkit-text-stroke-width: 0;
+    margin-left: 19px;
+    font-size: 80px;
+    white-space:nowrap;
+}
+.title-icon--lightning{
+    width: 105px;
+    height: 105px;
+    background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title-svg{
+        width: 43.12px;
+        height: 62.69px;
+        fill: #0178F3;
+    }
+}
+.title-icon--discont{
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+    .title-svg{
+        width: 57px;
+        height: 56.08px;
+        stroke: #F64F00;
+    }
+}
+.discont-section__desc{
+    max-width: 490px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.input{
+    width: 455px;
+    border: none;
+    border-bottom: 1px solid #7D7D7D;
+    padding-bottom: 10px;
+    margin-bottom: 56px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    &::placeholder{
+        color: #7D7D7D;
+    }
+}
+.discont-section__pic{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 95%;
+    height: 95%;
+    img{
+        width: 100%;
+    }
+}
+.discont-section__circle{
+    width: 790px;
+    height: 790px;
+    border-radius: 50%;
+    border: 1px solid #7D7D7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1700px) {
+    .discont-section__circle{
+        width: 600px;
+        height: 600px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .discont-section__circle{
+        width: 450px;
+        height: 450px;
+    }
+}
+.discont-section__circle{
+    @include laptop{
+        display: none;
+    }
+}
+.title-word{
+    @include laptop{
+        font-size: 60px;
+    }
+    @include tablets{
+        font-size: 45px;
+    }
+    @include phones{
+        font-size: 30px;
+    }
+}
